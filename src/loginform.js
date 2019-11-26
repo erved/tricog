@@ -13,7 +13,7 @@ class LoginForm extends React.Component {
         const {classes} = this.props;
       return (
         <form onSubmit={this.handleSignIn.bind(this)}>
-          <h3>Sign in</h3>
+          <h3>USERNAME: put any text and PASSWORD: put any text</h3>
           <input type="text" ref="username" placeholder="enter you username" />
           <input type="password" ref="password" placeholder="enter password" />
           <input type="submit" value="Login" />
